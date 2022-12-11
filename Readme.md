@@ -1,5 +1,5 @@
 ## Second activity WebGL.
-After making the modifications to the base project with a controller that allows you to upload a set of meshes and establish a Pawn, give the Pawn movement. The controller shall detect the keystrokes for the forward and reverse command. The direction of movement is obtained from the orientation of the camera.
+## Objective: After making the modifications to the base project with a controller that allows you to upload a set of meshes and establish a Pawn, give the Pawn movement. The controller shall detect the keystrokes for the forward and reverse command. The direction of movement is obtained from the orientation of the camera.
 
 To carry out this activity, what we must do is modify the file “Controller.razor.cs” and “Game.razor.cs” by changing a few lines of code corresponding to the functions keydownEvent and keyupEvent that detect the keyboard keys. In my case I have also assigned the movement of left and right for the pawn with the keys "a" and "d".
 
